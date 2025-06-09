@@ -1,0 +1,62 @@
+/* src/styling/LoginPage.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 223vh;
+  background-color: antiquewhite;
+}
+
+.login-form {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 1pc;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  margin-bottom: 17px;
+}
+
+.login-form input {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(186, 183, 183);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-form button {
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+.login-form button:hover {
+  background-color: rgb(227, 223, 223);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+.login-form p {
+  font-size: 16px;
+  padding: 8px;
+  color: red;
+  background-color: rgb(254, 207, 207);
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
