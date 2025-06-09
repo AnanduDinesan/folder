@@ -3,10 +3,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
-  background: linear-gradient(135deg, #d7263d, #6e1414);
-  padding: 20px;
-  box-sizing: border-box;
+  width: 223vh;
+  background-color: antiquewhite;
 }
 
 .login-form {
